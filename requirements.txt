@@ -1,0 +1,79 @@
+Flask              # Web framework for building the app
+PyPDF2             # For handling PDF parsing and text extraction
+spacy              # Advanced NLP library for text processing
+nltk               # Text processing library for tokenization and stopwords
+transformers       # Hugging Face library for NLP models
+torch              # PyTorch for deep learning and model support
+Werkzeug           # Utility library for Flask with secure HTTP handling
+
+torchvision
+torchaudio
+tensorflow
+
+
+# Flask
+"""
+Flask is a lightweight web framework for Python.
+It is used to create web applications and APIs.
+- Allows routing and request handling for creating dynamic web pages.
+- Supports middleware for request preprocessing and response postprocessing.
+- Can integrate templates using Jinja2 for rendering HTML.
+"""
+
+# PyPDF2
+"""
+PyPDF2 is a library for handling PDF files.
+It provides functionalities for:
+- Reading PDF content, including text extraction and metadata.
+- Merging, splitting, and rotating pages in a PDF.
+- Encrypting and decrypting PDF files.
+"""
+
+# spaCy
+"""
+spaCy is a natural language processing (NLP) library for advanced text processing.
+It supports:
+- Tokenization, lemmatization, and part-of-speech tagging.
+- Named entity recognition (NER) for extracting structured data.
+- Dependency parsing for understanding sentence structure.
+- Pretrained models for different languages.
+"""
+
+# NLTK (Natural Language Toolkit)
+"""
+NLTK is a library for working with human language data (text).
+It provides:
+- Tokenization and text cleaning tools.
+- Stopword removal, stemming, and lemmatization.
+- Pretrained corpora like stopwords and wordnet.
+- Functions for text classification, tagging, and parsing.
+"""
+
+# Transformers
+"""
+Transformers is a library by Hugging Face for using state-of-the-art NLP models.
+It supports:
+- Pretrained transformer models like BERT, GPT, and BART for tasks such as text classification, summarization, and translation.
+- Fine-tuning models for specific tasks with minimal effort.
+- Integration with PyTorch and TensorFlow for deep learning tasks.
+"""
+
+# Torch
+"""
+Torch (PyTorch) is a deep learning library for building and training machine learning models.
+It provides:
+- Support for GPU acceleration and tensor computation.
+- Tools for creating and training neural networks.
+- Prebuilt layers, loss functions, and optimizers for fast experimentation.
+"""
+
+# Werkzeug
+"""
+Werkzeug is a WSGI utility library for Python used by Flask.
+It provides:
+- Secure password hashing and HTTP request parsing.
+- Middleware for handling request and response objects.
+- Support for routing, debugging, and error handling.
+"""
+
+# pip install -r requirements.txt

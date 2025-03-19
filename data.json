@@ -1,0 +1,129 @@
+{
+    "python": [
+      {
+        "question": "What is a Python list?",
+        "answer": "A list in Python is a collection of ordered items, which can be of any data type. Lists are mutable, meaning their elements can be changed after the list is created."
+      },
+      {
+        "question": "Explain Python's list comprehension.",
+        "answer": "List comprehension provides a concise way to create lists by performing an operation on each item in an existing list or iterable."
+      },
+      {
+        "question": "What are decorators in Python?",
+        "answer": "Decorators are functions that modify the functionality of another function or method. They are used to add functionality to an existing object without modifying its structure."
+      },
+      {
+        "question": "What is the difference between a tuple and a list in Python?",
+        "answer": "A tuple is immutable, meaning its elements cannot be changed after creation, whereas a list is mutable and can be altered."
+      }
+    ],
+    "java": [
+      {
+        "question": "What is the difference between an abstract class and an interface in Java?",
+        "answer": "An abstract class can have both abstract and concrete methods, while an interface can only have abstract methods (until Java 8 introduced default methods). Abstract classes are used for shared functionality, while interfaces are used to define contracts."
+      },
+      {
+        "question": "Explain the concept of inheritance in Java.",
+        "answer": "Inheritance allows one class (child class) to inherit the properties and methods of another class (parent class). It promotes code reusability and method overriding."
+      },
+      {
+        "question": "What are Java streams?",
+        "answer": "Java Streams allow you to process sequences of elements in a functional style. They provide operations like filter, map, and reduce to work with data in a more declarative way."
+      },
+      {
+        "question": "What is method overloading in Java?",
+        "answer": "Method overloading in Java occurs when multiple methods have the same name but different parameters (either different type or number). It allows for more readable code by performing similar tasks with different inputs."
+      }
+    ],
+    "javascript": [
+      {
+        "question": "What is a closure in JavaScript?",
+        "answer": "A closure is a function that retains access to its lexical scope, even when the function is executed outside that scope. Closures are often used to create private variables."
+      },
+      {
+        "question": "Explain the concept of event delegation in JavaScript.",
+        "answer": "Event delegation is a technique where a single event listener is attached to a parent element, and events are handled for its child elements using event bubbling."
+      },
+      {
+        "question": "What is a promise in JavaScript?",
+        "answer": "A promise is an object representing the eventual completion or failure of an asynchronous operation. Promises allow you to handle asynchronous code in a more readable way than using callbacks."
+      },
+      {
+        "question": "What is the difference between var, let, and const in JavaScript?",
+        "answer": "The main difference is scope. 'var' has function scope, 'let' has block scope, and 'const' also has block scope but is used to declare variables that cannot be reassigned."
+      }
+    ],
+    "html_css": [
+      {
+        "question": "What is the difference between 'class' and 'id' in HTML?",
+        "answer": "In HTML, 'id' is used for unique elements, whereas 'class' is used for multiple elements. 'id' should be unique within a page, while 'class' can be reused."
+      },
+      {
+        "question": "What is the purpose of the <meta> tag in HTML?",
+        "answer": "The <meta> tag provides metadata about the HTML document, such as the character set, description, keywords, and author. It is placed within the <head> section of the document."
+      },
+      {
+        "question": "What is the CSS box model?",
+        "answer": "The CSS box model defines the layout of elements in a webpage, consisting of content, padding, border, and margin. It dictates how elements are sized and how space is distributed around them."
+      },
+      {
+        "question": "Explain the difference between inline, block, and inline-block elements in CSS.",
+        "answer": "Inline elements do not start a new line and only take up as much width as necessary. Block elements start on a new line and take up the full width. Inline-block elements are like inline elements but allow setting width and height."
+      }
+    ],
+    "sql": [
+      {
+        "question": "What is the difference between INNER JOIN and LEFT JOIN in SQL?",
+        "answer": "INNER JOIN returns only the rows where there is a match in both tables, while LEFT JOIN returns all rows from the left table and the matching rows from the right table. If there is no match, NULL values are returned for the right table."
+      },
+      {
+        "question": "What is normalization in SQL?",
+        "answer": "Normalization is the process of organizing the data in a database to reduce redundancy and improve data integrity. This is done by dividing large tables into smaller ones and defining relationships between them."
+      },
+      {
+        "question": "What is the use of the 'GROUP BY' clause in SQL?",
+        "answer": "The 'GROUP BY' clause is used to group rows that have the same values into summary rows, like finding the sum or average of a column."
+      },
+      {
+        "question": "What is a primary key in SQL?",
+        "answer": "A primary key is a column (or a set of columns) in a table that uniquely identifies each row in the table. It cannot contain NULL values and must contain unique values."
+      }
+    ],
+    "machine_learning": [
+      {
+        "question": "What is overfitting in machine learning?",
+        "answer": "Overfitting occurs when a machine learning model learns the details and noise in the training data to the extent that it negatively impacts the performance of the model on new data."
+      },
+      {
+        "question": "Explain the difference between supervised and unsupervised learning.",
+        "answer": "In supervised learning, the model is trained on labeled data (input-output pairs), while in unsupervised learning, the model is trained on unlabeled data and must find patterns or structure within it."
+      },
+      {
+        "question": "What is cross-validation in machine learning?",
+        "answer": "Cross-validation is a technique used to assess the generalization performance of a model. It involves splitting the data into multiple subsets and training the model on some subsets while testing on others."
+      },
+      {
+        "question": "What is the bias-variance tradeoff in machine learning?",
+        "answer": "The bias-variance tradeoff is the balance between the bias (error due to overly simplistic models) and variance (error due to overly complex models). The goal is to find a model that generalizes well to new data."
+      }
+    ],
+    "data_science": [
+      {
+        "question": "What is the difference between supervised and unsupervised learning?",
+        "answer": "Supervised learning uses labeled data to train models, whereas unsupervised learning uses unlabeled data to identify patterns or structures within the data."
+      },
+      {
+        "question": "What is feature engineering?",
+        "answer": "Feature engineering is the process of selecting, modifying, or creating new features (variables) from raw data to improve the performance of a machine learning model."
+      },
+      {
+        "question": "What is data preprocessing?",
+        "answer": "Data preprocessing involves preparing raw data for analysis by cleaning, transforming, and normalizing it. This step helps improve the accuracy of the machine learning models."
+      },
+      {
+        "question": "What is the significance of data visualization in data science?",
+        "answer": "Data visualization is essential in data science because it allows for easy exploration of the data, helps uncover trends and relationships, and communicates results effectively to stakeholders."
+      }
+    ]
+  }
+  

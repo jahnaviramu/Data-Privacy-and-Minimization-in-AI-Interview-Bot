@@ -1,0 +1,35 @@
+{
+    "python": [
+        {
+            "question": "What is a Python list?",
+            "expected_answer": "A Python list is a collection of ordered items."
+        },
+        {
+            "question": "Explain Python's list comprehension.",
+            "expected_answer": "List comprehension is a concise way to create lists in Python."
+        }
+    ],
+    "java": [
+        {
+            "question": "What is the difference between an abstract class and an interface in Java?",
+            "expected_answer": "An abstract class can have both abstract and concrete methods, while an interface can only have abstract methods."
+        }
+    ],"html_css": [
+      {
+        "question": "What is the difference between 'class' and 'id' in HTML?",
+        "answer": "In HTML, 'id' is used for unique elements, whereas 'class' is used for multiple elements. 'id' should be unique within a page, while 'class' can be reused."
+      },
+      {
+        "question": "What is the purpose of the <meta> tag in HTML?",
+        "answer": "The <meta> tag provides metadata about the HTML document, such as the character set, description, keywords, and author. It is placed within the <head> section of the document."
+      },
+      {
+        "question": "What is the CSS box model?",
+        "answer": "The CSS box model defines the layout of elements in a webpage, consisting of content, padding, border, and margin. It dictates how elements are sized and how space is distributed around them."
+      },
+      {
+        "question": "Explain the difference between inline, block, and inline-block elements in CSS.",
+        "answer": "Inline elements do not start a new line and only take up as much width as necessary. Block elements start on a new line and take up the full width. Inline-block elements are like inline elements but allow setting width and height."
+      }
+    ]
+}
